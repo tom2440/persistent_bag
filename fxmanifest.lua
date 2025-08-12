@@ -1,12 +1,10 @@
------------------For support, scripts, and more----------------
---------------- https://discord.gg/wasabiscripts  -------------
----------------------------------------------------------------
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-description 'Wasabi Backpack for Ox Inventory'
-version '1.0.4'
+author 'tom2440'
+description 'Script de sac persistant'
+version '1.0.0'
 
 client_scripts {
   'client.lua',
@@ -28,4 +26,5 @@ dependencies {
   'ox_inventory',
   'ox_target',
   'oxmysql'  
+
 }
