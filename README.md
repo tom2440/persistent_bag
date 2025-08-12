@@ -37,4 +37,5 @@ Le sac disparaît quand tu rentres dans un véhicule (sauf moto/vélo).
 ☕ Remerciements
 Ce script est gratuit, créé pour le plaisir et la communauté.
 Si vous souhaitez me soutenir, un café via PayPal serait super motivant !
-👉 paypal.me/thomas244066
+[paypal.me/thomas244066](https://paypal.me/thomas244066)
+
