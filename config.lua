@@ -1,15 +1,10 @@
------------------For support, scripts, and more----------------
---------------- https://discord.gg/wasabiscripts  -------------
----------------------------------------------------------------
 Config = {}
 
-Config.checkForUpdates = true -- Check for updates?
-
-Config.OneBagInInventory = true -- Allow only one bag in inventory?
+Config.OneBagInInventory = true -- Autoriser seulement un sac dans l'inventaire ?
 
 Config.BackpackStorage = {
-    slots = 10, -- Slots of backpack storage
-    weight = 10000 -- Total weight for backpack
+    slots = 10, -- Emplacements du stockage du sac à dos
+    weight = 10000 -- Poids total du sac à dos
 }
 
 -- Distance maximale pour interagir avec un sac posé
@@ -24,17 +19,17 @@ Config.Models = {
     dropped = 'prop_cs_heist_bag_01' -- Modèle du sac posé au sol
 }
 
--- Le joueur peut modifier le raccourci clavier dans les paramètres de FiveM (F8 -> Settings -> Keybindings)
+-- Le joueur peut modifier le raccourci clavier dans les paramètres de FiveM (F8 -> Paramètres -> Assignations des touches)
 
-Strings = { -- Chaînes de notification
+Strings = { -- Textes de notification
     action_incomplete = 'Action incomplète',
     one_backpack_only = 'Vous ne pouvez avoir qu\'un seul sac à dos !',
     backpack_in_backpack = 'Vous ne pouvez pas mettre un sac à dos dans un autre !',
     no_bag_equipped = 'Vous n\'avez pas de sac à dos équipé !',
     no_bag_found = 'Impossible de trouver un sac à dos dans votre inventaire !',
     no_bag_identifier = 'Ce sac à dos n\'a pas d\'identifiant !',
-    use_command_to_drop = 'Utilisez la touche PAGE DOWN pour poser votre sac à dos !', -- Nouvelle chaîne
-    too_far_from_bag = 'Vous êtes trop loin du sac à dos', 
+    use_command_to_drop = 'Utilisez la touche PAGE BAS pour poser votre sac à dos !', -- Nouvelle chaîne
+    too_far_from_bag = 'Vous êtes trop loin du sac à dos',
     pickup_bag = 'Ramasser le sac',
     open_bag = 'Ouvrir le sac'
 }
